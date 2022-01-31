@@ -10,8 +10,6 @@ plugins {
     id("com.github.johnrengelman.shadow") version "6.1.0"
     id("org.spongepowered.mixin") version "d5f9873d60"
     java
-    scala
-    groovy
 }
 
 version = "0.0.1"

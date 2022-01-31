@@ -1,0 +1,8 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "xyz.myosyn",
+  "refmap": "mixins.euphoria.refmap.json",
+  "mixins": [],
+  "verbose": true,
+  "client": []
+}
