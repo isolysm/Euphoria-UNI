@@ -12,7 +12,18 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
  */
 
-package xyz.myosyn.cosmetics
+package xyz.myosyn.config.commands
 
-object CapePhysics {
+import gg.essential.api.EssentialAPI
+import gg.essential.api.commands.Command
+import gg.essential.api.commands.DefaultHandler
+
+object CosmeticCommand : Command("EuphoriaCosmetic") {
+
+    override val commandAliases = setOf(Alias("euphcos"))
+
+    @DefaultHandler
+    fun execCommand() {
+        EssentialAPI.getGuiUtil().openScreen(CosmeticGUI.gui())
+    }
 }
