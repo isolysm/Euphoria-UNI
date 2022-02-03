@@ -12,13 +12,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
  */
 
-package xyz.myosyn;
+package xyz.myosyn.mixins;
 
-import net.minecraftforge.client.MinecraftForgeClient;
-import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.server.gui.MinecraftServerGui;
 import org.spongepowered.asm.mixin.Mixin;
 
-@Mixin(MinecraftForgeClient.class)
-public abstract class ClientConnectionMixin extends MinecraftForge {
+@Mixin(MinecraftServerGui.class)
+public abstract class MixinScreen extends {
 
 }

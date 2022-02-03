@@ -5,6 +5,8 @@
   "mixins": [],
   "verbose": true,
   "client": [
-    "ClientConnectionMixin"
+    "ClientConnectionMixin",
+    "MixinScreen",
+    "mixins.MixinGuiIngameMenu"
   ]
 }
